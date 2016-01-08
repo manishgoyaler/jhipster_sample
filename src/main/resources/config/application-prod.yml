@@ -20,7 +20,7 @@ spring:
             enabled: false
     datasource:
         driver-class-name: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
-        url: jdbc:mysql://localhost:3306/jhipster?useUnicode=true&characterEncoding=utf8
+        url: jdbc:mysql://192.168.99.100:3306/jhipster?useUnicode=true&characterEncoding=utf8
         name:
         username: root
         password:
@@ -34,8 +34,8 @@ spring:
             hibernate.generate_statistics: false
     data:
         elasticsearch:
-            cluster-name:
-            cluster-nodes: localhost:9300
+            cluster-name: elasticsearch
+            cluster-nodes: 192.168.99.100:9300
     mail:
         host: localhost
         port: 25

@@ -60,6 +60,8 @@
         <sonar.sources>${project.basedir}/src/main/</sonar.sources>
         <sonar.surefire.reportsPath>${project.testresult.directory}/surefire-reports</sonar.surefire.reportsPath>
         <sonar.tests>${project.basedir}/src/test/</sonar.tests>
+        <sonar.host.url>http://192.168.99.100:9000</sonar.host.url>
+        <sonar.jdbc.url>jdbc:h2:tcp://192.168.99.100:9092/sonar</sonar.jdbc.url>
         <spring-security.version>4.0.2.RELEASE</spring-security.version>
         <spring-social-facebook.version>2.0.3.RELEASE</spring-social-facebook.version>
         <spring-social-google.version>1.0.0.RELEASE</spring-social-google.version>
